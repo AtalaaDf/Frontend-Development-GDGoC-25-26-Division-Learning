@@ -5,6 +5,8 @@ import deza from "@/assets/deza.jpg";
 import enjel from "@/assets/enjel.jpeg";
 import parel from "@/assets/parel.jpg";
 import atala from "@/assets/atala.jpg";
+import aulia from "@/assets/aulia.jpg";
+
 import { Code2, Palette, Smartphone, Zap } from "lucide-react";
 const features = [
   {
@@ -58,7 +60,7 @@ const members = [
     github: "github.com/ak7prisma",
     image: akprisma,
   },
-  
+
   {
     name: "Nuredy Rahma Gunawan",
     major: "Sistem Informasi",
@@ -100,6 +102,7 @@ const members = [
     instagram: "instagram.com/auliaamtiara",
     linkedin: "https://www.linkedin.com/in/aulia-mutiara-sari-513a7439a/",
     github: "https://github.com/auliamutiaraa",
+    image: aulia,
   },
   {
     name: "Anjelia Hidayat",
