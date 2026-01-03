@@ -22,7 +22,7 @@ const Team = () => {
           </p>
         </motion.div>
 
-        {/* Core Team Lead */}
+        {/* Core Team  */}
         <div className="max-w-sm mx-auto mb-20">
           <TeamCard member={coreTeam} index={0} />
         </div>

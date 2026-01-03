@@ -7,13 +7,21 @@ import parel from "@/assets/parel.jpg";
 import atala from "@/assets/atala.jpg";
 import aulia from "@/assets/aulia.jpg";
 
-import { Code2, Palette, Smartphone, Zap } from "lucide-react";
+import {
+  Code2,
+  Palette,
+  Smartphone,
+  Zap,
+  Github,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 const features = [
   {
     icon: Code2,
     title: "Modern Technologies",
     description:
-      "Learn React, Vue, TypeScript, and other cutting-edge frontend frameworks.",
+      "Learn React, Tailwind, Firebase, and other  modern web development technologies.",
     color: "google-blue",
   },
   {
@@ -47,6 +55,7 @@ const coreTeam = {
   linkedin: "linkedin.com/in/ello-rabyndra",
   github: "github.com/ElloRabyndra",
   image: ello,
+  quote: "Just do your best, and prepare for the worst.",
   isLead: true,
 };
 
@@ -140,4 +149,26 @@ const members = [
     image: atala,
   },
 ];
-export { features, coreTeam, members };
+
+const socialLinks = [
+  {
+    name: "GitHub",
+    icon: Github,
+    url: "https://github.com/DSC-UNSRI/Frontend-Development-GDGoC-25-26-Division-Learning",
+    color: "hover:bg-foreground hover:text-background",
+  },
+  {
+    name: "Instagram",
+    icon: Instagram,
+    url: "https://www.instagram.com/gdgunsri/",
+    color: "hover:bg-google-red hover:text-primary-foreground",
+  },
+  {
+    name: "LinkedIn",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/company/gdgunsri",
+    color: "hover:bg-google-blue hover:text-primary-foreground",
+  },
+];
+
+export { features, coreTeam, members, socialLinks };

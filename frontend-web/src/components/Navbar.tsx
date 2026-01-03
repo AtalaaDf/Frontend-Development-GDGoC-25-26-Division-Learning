@@ -41,7 +41,7 @@ const Navbar = () => {
               <span className="font-display text-sm md:text-base font-bold">
                 <span className="text-google-blue">Front</span>
                 <span className="text-google-red">end</span>
-                <span className="text-muted-foreground"> Dev</span>
+                <span className="text-google-green"> Dev</span>
               </span>
             </div>
 

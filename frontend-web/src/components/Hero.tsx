@@ -44,23 +44,13 @@ const Hero = () => {
         />
       </div>
 
-      <div className="container mx-auto px-4 py-20">
+      <div className="container mx-auto px-4 py-20 pt-36 md:pt-48">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          {/* Logo */}
-          <motion.div
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="mb-8"
-          >
-            <img src={gdgocLogo} alt="GDGOC Logo" className="h-16 md:h-32 mx-auto" />
-          </motion.div>
-
           {/* Title */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

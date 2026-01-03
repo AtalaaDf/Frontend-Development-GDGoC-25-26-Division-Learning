@@ -10,6 +10,7 @@ interface TeamMember {
   linkedin?: string;
   github?: string;
   image?: string;
+  quote?: string;
   isLead?: boolean;
 }
 
@@ -77,6 +78,15 @@ const TeamCard = ({ member, index }: TeamCardProps) => {
         <p className="text-muted-foreground text-xs mb-4">
           Batch {member.batch}
         </p>
+
+        {/* Quote */}
+        {member.quote && (
+          <div className="mb-4">
+            <p className="text-xs italic text-muted-foreground">
+              "{member.quote}"
+            </p>
+          </div>
+        )}
 
         {/* Social Links */}
         <div className="flex gap-2">
