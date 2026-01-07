@@ -69,8 +69,9 @@ const members = [
     batch: "24",
     instagram: "instagram.com/akprisma",
     linkedin: "https://www.linkedin.com/in/ahmad-kurnia-prisma-1b639a313/",
-    github: "github.com/ak7prisma",
+    github: "https://github.com/ak7prisma",
     image: akprisma,
+    quote:"It’s not a bug, it’s a feature.",
   },
 
   {
