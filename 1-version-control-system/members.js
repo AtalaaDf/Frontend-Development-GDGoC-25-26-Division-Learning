@@ -20,6 +20,14 @@ const members = [
     linkedin: "farrelaw", // optional
   },
   {
+    name: "Anjelia Hidayat",
+    major: "Computer System",
+    batch: "2024",
+    role: "Member",
+    github: "enjeliaa",
+    linkedin: "Anjelia Hidayat", // optional
+  },
+  {
     name: "Duhairillah",
     major: "Informatics Engineering",
     batch: "2025",
