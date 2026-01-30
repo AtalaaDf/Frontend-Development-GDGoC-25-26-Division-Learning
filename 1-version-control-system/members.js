@@ -19,4 +19,12 @@ const members = [
     github: "Kokoparel",
     linkedin: "farrelaw", // optional
   },
+  {
+    name: "Ahmad Kurnia Prisma",
+    major: "Informatics Engineering",
+    batch: "2024",
+    role: "Member",
+    github: "ak7prisma",
+    linkedin: "Ahmad Kurnia Prisma",
+  }
 ];
