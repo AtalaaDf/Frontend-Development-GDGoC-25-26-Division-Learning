@@ -1,6 +1,6 @@
 1. Prisma : https://github.com/ak7prisma/Card-Battle.git
 2. Deza: 
-3. Atala : 
+3. Atala : https://github.com/AtalaaDf/Project-UTS-FE
 4. Rillah : https://github.com/SerenaaaaRN/react-bookstore.git
 5. Faiz : https://github.com/FaizZzhue/aura
 6. Awan : https://github.com/awann-cloud/utm-beasiswa
